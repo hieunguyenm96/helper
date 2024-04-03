@@ -1,7 +1,7 @@
 ## Helper
 
 import sys
-import KSR as KSR # type: ignore
+import KSR as KSR 
 
 def mod_init():
     KSR.info("===== from Python mod init\n")
