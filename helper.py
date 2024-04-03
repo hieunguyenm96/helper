@@ -23,6 +23,6 @@ class kamailio:
         KSR.dbg("method " + KSR.pv.get("$rm") + " r-uri " + KSR.pv.get("$ru"))
 
     # Test
-    def test():
+    def test(self):
         KSR.info("===== from helper.py =====\n")
         return True
